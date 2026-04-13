@@ -5,11 +5,11 @@
 # "PV" for pictures and video (eg. media[1]=PV,/home/jmaggard/digital_camera)
 # NOTE: for more media folder, increment a number after _, as in the lines commented below
 
-# https://hub.docker.com/repository/docker/rardcode/minidlna/tags
+# https://hub.docker.com/repository/docker/gianlucavagnuzzi/minidlna/tags
 
 services:
   minidlna:
-    image: rardcode/minidlna
+    image: gianlucavagnuzzi/minidlna:3233.133r3
     container_name: minidlna
     environment:
     - TZ=Europe/Rome
