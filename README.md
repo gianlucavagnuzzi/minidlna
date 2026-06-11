@@ -70,6 +70,9 @@ Type of media legend:
 ```
 
 ## Changelog
+### v3240.133r3 - 11.06.2026
+- Alpine v.3.24.0
+
 ### v3234.133r3 - 23.04.2026
 - Alpine v.3.23.4
 
