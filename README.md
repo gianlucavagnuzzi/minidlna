@@ -30,14 +30,14 @@ docker run --rm -d \
 --net host \
 -e media_1=P,/media/photos \
 -v /srv/photos:/media/photos \
---name minidlna rardcode/minidlna
+--name minidlna gianlucavagnuzzi/minidlna
 ```
 
 ### ...by docker-compose file:
 ```
 services:
   minidlna:
-    image: rardcode/minidlna
+    image: gianlucavagnuzzi/minidlna
     container_name: minidlna
     environment:
     - media_1=P,/media/photos
